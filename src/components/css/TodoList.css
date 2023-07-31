@@ -1,0 +1,67 @@
+body {
+    margin:0
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    width: 100vw;
+    border-radius: 30px;
+    text-align : center;
+    justify-content: center;
+}
+
+input{
+    margin:10px;
+    padding:5px; 
+    border:none;
+    border-bottom: 2px solid lightgray;
+    outline: none;
+    width: 400px;
+}
+
+.savebtn {
+    background-color : #dadada;
+    color:black;
+    border:none;
+    padding : 5px 10px 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttomspan{
+    display: flex;
+    max-width: 50%;
+    width: 100vw;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding : 5px 0 5px 0;
+}
+
+
+.removebtn{
+    border-radius: 200px;
+    border:1px solid #dadada;
+    background-color: #dadada;
+    padding:5px 8px 5px 8px;
+    cursor: pointer;
+}
+.events {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .events .ant-badge-status {
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .notes-month {
+    font-size: 28px;
+    text-align: center;
+  }
+  .notes-month section {
+    font-size: 28px;
+  }
